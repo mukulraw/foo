@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/red"
+            android:gravity="center">
+
+            <com.ratna.foosip.CustomFont
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:id="@+id/txt_heading"
+                android:textColor="@android:color/white"
+                app:Fontname="Lato-Regular.ttf"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/linearLayout"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:background="@color/white">
+
+            <StepperIndicator.StepperIndicator
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                app:stpi_stepCount="3"
+                stpi_circleColor="#CBCDCE"
+                app:stpi_circleRadius="5dp"
+                app:stpi_circleStrokeWidth="1dp"
+                app:stpi_indicatorColor="#E40B1F"
+                app:stpi_indicatorRadius="3dp"
+                app:stpi_lineColor="#CBCDCE"
+                app:stpi_lineDoneColor="#E40B1F"
+                app:stpi_lineStrokeWidth="1dp"
+                app:stpi_lineMargin="1dp"
+                app:stpi_showDoneIcon="true"
+                android:id="@+id/stepperindicator" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3">
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:id="@+id/viewpager"></androidx.viewpager.widget.ViewPager>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

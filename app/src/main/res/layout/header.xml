@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:background="@color/red"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:id="@+id/frameLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+
+                <com.ratna.foosip.ExpandedCircleProgressView
+                    android:id="@+id/expanded_circle_progress"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="right|center_vertical"
+                    app:innerCircleColor="@color/grey"
+                    app:innerCircleSize="40dp"
+                    app:outerCircleColor="#ffffff"
+                    app:outerCircleLineWidth="5dp"
+                    app:outerCircleSize="40dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/circleView"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_profile" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.ratna.foosip.CustomFont
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Foosip"
+            app:Fontname="Lato-Regular.ttf"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:typeface="sans"
+            android:visibility="gone" />
+
+        <com.ratna.foosip.CustomFont
+            android:id="@+id/txt_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="Pankajkataria786@gmail.com"
+            app:Fontname="Lato-Regular.ttf"
+            android:textSize="@dimen/text_size_xlarge"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</LinearLayout>

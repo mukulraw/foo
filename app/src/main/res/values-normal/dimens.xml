@@ -1,0 +1,22 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="home_margin_left">10dp</dimen>
+    <dimen name="icon_and_home_width">100dp</dimen>
+
+    <dimen name="home_text_size">15sp</dimen>
+
+    <dimen name="text_size_xlarge">15sp</dimen>
+    <dimen name="text_size_normal">12sp</dimen>
+
+    <dimen name="video_height">100dp</dimen>
+    <dimen name="video_width">130dp</dimen>
+
+    <dimen name="margin_vertical">7dp</dimen>
+    <dimen name="nav_drawer_width">260dp</dimen>
+
+    <dimen name="content_ques_oval">40dp</dimen>
+    <dimen name="popup_width">180dp</dimen>
+
+</resources>

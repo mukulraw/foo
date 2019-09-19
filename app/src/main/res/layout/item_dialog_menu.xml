@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chef Special"
+            android:id="@+id/txt_item"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:layout_margin="5dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radioButton"
+            android:layout_gravity="right|center_vertical"
+            android:buttonTint="@color/red"
+            android:layout_margin="5dp" />
+    </FrameLayout>
+</LinearLayout>

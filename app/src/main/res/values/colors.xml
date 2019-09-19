@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="stpi_default_circle_color">#b3bdc2</color>
+    <color name="stpi_default_primary_color">#E40B1F</color>
+    <color name="stpi_default_line_color">#b3bdc2</color>
+
+    <color name="red">#E40B1F</color>
+    <color name="grey">#CBCDCE</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="st">#C90019</color>
+    <color name="dimgrey">#696969</color>
+
+    <color name="colorPrimary">#E40B1F</color>
+
+    <color name="colorPrimaryDark">#C90019</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="darkColor">#E40B1F</color>
+    <color name="transparent">#88000000</color>
+</resources>

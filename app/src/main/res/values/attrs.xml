@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="StepperIndicator" tools:ignore="ResourceName">
+        <attr format="integer" name="stpi_stepCount"/>
+        <attr format="integer" name="stpi_animDuration"/>
+
+        <attr format="color" name="stpi_circleColor"/>
+        <attr format="dimension" name="stpi_circleRadius"/>
+        <attr format="dimension" name="stpi_circleStrokeWidth"/>
+
+        <attr format="color" name="stpi_indicatorColor"/>
+        <attr format="dimension" name="stpi_indicatorRadius"/>
+
+        <attr format="color" name="stpi_lineColor"/>
+        <attr format="color" name="stpi_lineDoneColor"/>
+        <attr format="dimension" name="stpi_lineStrokeWidth"/>
+        <attr format="dimension" name="stpi_lineMargin"/>
+
+        <attr format="boolean" name="stpi_showDoneIcon"/>
+        <attr format="boolean" name="stpi_showStepNumberInstead"/>
+
+        <attr format="boolean" name="stpi_useBottomIndicator"/>
+        <attr format="boolean" name="stpi_useBottomIndicatorWithStepColors"/>
+        <attr format="dimension" name="stpi_bottomIndicatorHeight"/>
+        <attr format="dimension" name="stpi_bottomIndicatorWidth"/>
+        <attr format="dimension" name="stpi_bottomIndicatorMarginTop"/>
+
+        <attr format="reference" name="stpi_stepsCircleColors"/>
+        <attr format="reference" name="stpi_stepsIndicatorColors"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ExpandedCircleProgressView">
+        <attr name="innerCircleSize" format="dimension" />
+        <attr name="outerCircleSize" format="dimension" />
+
+        <attr name="innerCircleColor" format="color" />
+        <attr name="outerCircleColor" format="color" />
+
+        <attr name="textProgressColor" format="color" />
+        <attr name="progressCircleColor" format="color" />
+
+        <attr name="outerCircleLineWidth" format="dimension" />
+
+        <attr name="textProgressSize" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CircularImageView">
+        <attr name="border" format="boolean"/>
+        <attr name="border_width_new" format="dimension"/>
+        <attr name="border_color_new" format="color"/>
+        <attr name="shadow" format="boolean"/>
+        <attr name="shadow_color" format="color"/>
+        <attr name="shadow_radius" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <attr name="circularImageViewStyle" format="reference"/>
+    </declare-styleable>
+
+
+
+    <declare-styleable name="CustomFont">
+        <attr name="Fontname" format="string"/>
+    </declare-styleable>
+
+
+</resources>
